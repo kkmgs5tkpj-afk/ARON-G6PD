@@ -9,13 +9,16 @@
       "synonyms": [],
       "drug_class": "Sulfone antibiotic",
       "original_classification": "high",
-      "verified_classification": null,
-      "recommendation": null,
-      "evidence_level": null,
-      "dose_dependent": null,
-      "notes": "",
-      "references": [],
-      "last_reviewed": null
-    }
-  ]
-}
+      "verified_classification": "high",
+"recommendation": "Avoid",
+"evidence_level": "high",
+"dose_dependent": false,
+"notes": "High-risk medication in G6PD deficiency.",
+"references": [
+  {
+    "source": "CPIC",
+    "year": 2023,
+    "title": "CPIC Guideline for G6PD-related medication risk"
+  }
+],
+"last_reviewed": "2026-08-28"
