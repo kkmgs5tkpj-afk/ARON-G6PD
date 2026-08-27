@@ -1,6 +1,21 @@
 {
   "project": "G6PD-ARON",
   "version": "0.1.0",
-  "last_updated": "2026-08-27",
-  "drugs": []
+  "last_updated": "2026-08-28",
+  "drugs": [
+    {
+      "id": "dapsone",
+      "generic_name": "Dapsone",
+      "synonyms": [],
+      "drug_class": "Sulfone antibiotic",
+      "original_classification": "high",
+      "verified_classification": null,
+      "recommendation": null,
+      "evidence_level": null,
+      "dose_dependent": null,
+      "notes": "",
+      "references": [],
+      "last_reviewed": null
+    }
+  ]
 }
