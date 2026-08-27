@@ -2,9 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>G6PD MedSafe</title>
 
@@ -16,19 +14,19 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: #f5f7fa;
+      background: #f4f7fb;
       color: #1f2937;
     }
 
     header {
       background: #17324d;
       color: white;
-      padding: 30px 20px;
       text-align: center;
+      padding: 35px 20px;
     }
 
     header h1 {
-      margin: 0 0 8px;
+      margin: 0 0 10px;
       font-size: 32px;
     }
 
@@ -46,45 +44,44 @@
     .search-box {
       display: flex;
       gap: 10px;
-      margin-bottom: 30px;
+      margin-bottom: 25px;
     }
 
     input {
       flex: 1;
-      padding: 15px;
+      padding: 16px;
       border: 1px solid #d1d5db;
       border-radius: 10px;
       font-size: 16px;
     }
 
     button {
-      padding: 15px 22px;
+      padding: 16px 24px;
       border: none;
       border-radius: 10px;
       background: #17324d;
       color: white;
-      cursor: pointer;
       font-size: 16px;
-    }
-
-    button:hover {
-      opacity: 0.9;
+      cursor: pointer;
     }
 
     .card {
       background: white;
       border-radius: 15px;
       padding: 25px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-      margin-bottom: 20px;
+      box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+    }
+
+    .hidden {
+      display: none;
     }
 
     .risk {
       display: inline-block;
-      padding: 8px 14px;
+      padding: 9px 15px;
       border-radius: 20px;
       font-weight: bold;
-      margin: 10px 0;
+      margin: 10px 0 15px;
     }
 
     .high {
@@ -102,17 +99,12 @@
       color: #374151;
     }
 
-    .hidden {
-      display: none;
-    }
-
     .disclaimer {
-      margin-top: 30px;
+      margin-top: 25px;
       padding: 15px;
       background: #fff7ed;
       border-radius: 10px;
       font-size: 14px;
-      color: #7c2d12;
     }
 
     @media (max-width: 600px) {
@@ -129,54 +121,67 @@
 
 <body>
 
-  <header>
-    <h1>G6PD MedSafe</h1>
-    <p>Medication Safety Checker for G6PD Deficiency</p>
-  </header>
+<header>
+  <h1>G6PD MedSafe</h1>
+  <p>Medication Safety Checker for G6PD Deficiency</p>
+</header>
 
-  <main>
+<main>
 
-    <div class="search-box">
-      <input
-        type="text"
-        id="searchInput"
-        placeholder="Search medication..."
-      >
+  <div class="search-box">
+    <input
+      id="searchInput"
+      type="text"
+      placeholder="Search medication..."
+    >
 
-      <button onclick="searchDrug()">
-        Search
-      </button>
-    </div>
+    <button onclick="searchDrug()">
+      Search
+    </button>
+  </div>
 
-    <div id="result" class="card hidden"></div>
+  <div id="result" class="card hidden"></div>
 
-    <div class="disclaimer">
-      <strong>Important:</strong>
-      This project is for educational and reference purposes.
-      It does not replace professional medical advice,
-      prescribing information, or clinical judgment.
-    </div>
+  <div class="disclaimer">
+    <strong>Important:</strong>
+    This project is for educational and reference purposes.
+    It does not replace professional medical advice,
+    official prescribing information, or clinical judgment.
+  </div>
 
-  </main>
+</main>
 
-  <script>
+<script>
 
-    const drugs = [
-  {
-    name: "Dapsone",
-    risk: "high",
-    recommendation: "Avoid",
-    evidence: "High"
-  },
-  {
-    name: "Nitrofurantoin",
-    risk: "medium",
-    recommendation: "Use with caution",
-    evidence: "Moderate"
+async function loadDrugs() {
+
+  try {
+
+    const response = await fetch("data/drugs.json");
+
+    if (!response.ok) {
+      throw new Error("Could not load database");
+    }
+
+    const data = await response.json();
+
+    window.drugs = data.drugs || [];
+
+  } catch (error) {
+
+    console.error(error);
+
+    window.drugs = [];
+
   }
-];
+}
 
-function searchDrug() {
+
+async function searchDrug() {
+
+  if (!window.drugs) {
+    await loadDrugs();
+  }
 
   const input = document
     .getElementById("searchInput")
@@ -186,8 +191,9 @@ function searchDrug() {
 
   const result = document.getElementById("result");
 
+  result.classList.remove("hidden");
+
   if (!input) {
-    result.classList.remove("hidden");
 
     result.innerHTML = 
       <h2>Please enter a medication name.</h2>
@@ -196,54 +202,22 @@ function searchDrug() {
     return;
   }
 
-  const drug = drugs.find(d =>
-    d.name.toLowerCase().includes(input)
-  );
+  const drug = window.drugs.find(d => {
 
-  result.classList.remove("hidden");
+    const name = (d.generic_name || "").toLowerCase();
+
+    const synonyms = (d.synonyms || [])
+      .map(s => s.toLowerCase());
+
+    return name.includes(input) ||
+           synonyms.some(s => s.includes(input));
+
+  });
+
 
   if (!drug) {
 
-    result.innerHTML = 
+    result.innerHTML = `
       <h2>Medication not found</h2>
-      <p>
-        No medication matching
-        <strong>${input}</strong>
-        was found.
-      </p>
-    ;
 
-    return;
-  }
-
-  result.innerHTML = 
-    <h2>${drug.name}</h2>
-
-    <div class="risk ${drug.risk}">
-      ${getRiskLabel(drug.risk)}
-    </div>
-
-    <p>
-      <strong>Recommendation:</strong>
-      ${drug.recommendation}
-    </p>
-
-    <p>
-      <strong>Evidence level:</strong>
-      ${drug.evidence}
-    </p>
-  ;
-}
-
-function getRiskLabel(risk) {
-
-  if (risk === "high") {
-    return "🔴 HIGH RISK";
-  }
-
-  if (risk === "medium") {
-    return "🟠 MEDIUM RISK";
-  }
-
-  return "⚪ UNKNOWN";
-}
+      <
