@@ -1,223 +1,525 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>G6PD MedSafe</title>
+<title>G6PD MedSafe</title>
 
-  <style>
-    * {
-      box-sizing: border-box;
-    }
+<style>
 
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f4f7fb;
-      color: #1f2937;
-    }
+* {
+    box-sizing: border-box;
+}
 
-    header {
-      background: #17324d;
-      color: white;
-      text-align: center;
-      padding: 35px 20px;
-    }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #1f2937;
+}
 
-    header h1 {
-      margin: 0 0 10px;
-      font-size: 32px;
-    }
+header {
+    background: #17324d;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
 
-    header p {
-      margin: 0;
-      opacity: 0.9;
-    }
+header h1 {
+    margin: 0 0 10px;
+    font-size: 32px;
+}
 
-    main {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
-    }
+header p {
+    margin: 0;
+    opacity: 0.9;
+}
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+input {
+    flex: 1;
+    padding: 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 16px 24px;
+    border: none;
+    border-radius: 10px;
+    background: #17324d;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+}
+
+.hidden {
+    display: none;
+}
+
+.risk {
+    display: inline-block;
+    padding: 9px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin: 10px 0 15px;
+}
+
+.high {
+    background: #fee2e2;
+    color: #b91c1c;
+}
+
+.medium {
+    background: #ffedd5;
+    color: #c2410c;
+}
+
+.low {
+    background: #dcfce7;
+    color: #15803d;
+}
+
+.unknown {
+    background: #e5e7eb;
+    color: #374151;
+}
+
+.conflicting {
+    background: #ede9fe;
+    color: #6d28d9;
+}
+
+.info {
+    margin-top: 15px;
+    line-height: 1.6;
+}
+
+.info strong {
+    color: #17324d;
+}
+
+.reference {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f8fafc;
+    border-radius: 10px;
+}
+
+.disclaimer {
+    margin-top: 25px;
+    padding: 15px;
+    background: #fff7ed;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.error {
+    color: #b91c1c;
+}
+
+@media (max-width: 600px) {
 
     .search-box {
-      display: flex;
-      gap: 10px;
-      margin-bottom: 25px;
-    }
-
-    input {
-      flex: 1;
-      padding: 16px;
-      border: 1px solid #d1d5db;
-      border-radius: 10px;
-      font-size: 16px;
+        flex-direction: column;
     }
 
     button {
-      padding: 16px 24px;
-      border: none;
-      border-radius: 10px;
-      background: #17324d;
-      color: white;
-      font-size: 16px;
-      cursor: pointer;
-    }
-
-    .card {
-      background: white;
-      border-radius: 15px;
-      padding: 25px;
-      box-shadow: 0 5px 18px rgba(0,0,0,0.08);
-    }
-
-    .hidden {
-      display: none;
-    }
-
-    .risk {
-      display: inline-block;
-      padding: 9px 15px;
-      border-radius: 20px;
-      font-weight: bold;
-      margin: 10px 0 15px;
-    }
-
-    .high {
-      background: #fee2e2;
-      color: #b91c1c;
-    }
-
-    .medium {
-      background: #ffedd5;
-      color: #c2410c;
-    }
-
-    .unknown {
-      background: #e5e7eb;
-      color: #374151;
-    }
-
-    .disclaimer {
-      margin-top: 25px;
-      padding: 15px;
-      background: #fff7ed;
-      border-radius: 10px;
-      font-size: 14px;
-    }
-
-    @media (max-width: 600px) {
-      .search-box {
-        flex-direction: column;
-      }
-
-      button {
         width: 100%;
-      }
     }
-  </style>
+
+    header h1 {
+        font-size: 27px;
+    }
+
+}
+
+</style>
+
 </head>
 
 <body>
 
 <header>
-  <h1>G6PD MedSafe</h1>
-  <p>Medication Safety Checker for G6PD Deficiency</p>
+
+<h1>G6PD MedSafe</h1>
+
+<p>Medication Safety Checker for G6PD Deficiency</p>
+
 </header>
+
 
 <main>
 
-  <div class="search-box">
-    <input
-      id="searchInput"
-      type="text"
-      placeholder="Search medication..."
-    >
+<div class="search-box">
 
-    <button onclick="searchDrug()">
-      Search
-    </button>
-  </div>
+<input
+    id="searchInput"
+    type="text"
+    placeholder="Search medication..."
+>
 
-  <div id="result" class="card hidden"></div>
+<button onclick="searchDrug()">
+    Search
+</button>
 
-  <div class="disclaimer">
-    <strong>Important:</strong>
-    This project is for educational and reference purposes.
-    It does not replace professional medical advice,
-    official prescribing information, or clinical judgment.
-  </div>
+</div>
+
+
+<div id="result" class="card hidden"></div>
+
+
+<div class="disclaimer">
+
+<strong>Important:</strong>
+
+This project is for educational and reference purposes.
+It does not replace professional medical advice,
+official prescribing information, or clinical judgment.
+
+</div>
 
 </main>
 
+
 <script>
+
+let drugs = [];
+
+
+/* =========================
+   LOAD DATABASE
+========================= */
 
 async function loadDrugs() {
 
-  try {
+    try {
 
-    const response = await fetch("data/drugs.json");
+        const response = await fetch("data/drugs.json");
 
-    if (!response.ok) {
-      throw new Error("Could not load database");
+        if (!response.ok) {
+            throw new Error("Database could not be loaded.");
+        }
+
+        const data = await response.json();
+
+        drugs = data.drugs || [];
+
+        console.log("G6PD database loaded:", drugs);
+
+    } catch (error) {
+
+        console.error(error);
+
+        drugs = [];
+
+        const result = document.getElementById("result");
+
+        result.classList.remove("hidden");
+
+        result.innerHTML = `
+            <h2 class="error">Database Error</h2>
+            <p>
+                The medication database could not be loaded.
+                Please try again later.
+            </p>
+        `;
+
     }
 
-    const data = await response.json();
-
-    window.drugs = data.drugs || [];
-
-  } catch (error) {
-
-    console.error(error);
-
-    window.drugs = [];
-
-  }
 }
 
 
+/* =========================
+   RISK CLASS
+========================= */
+
+function getRiskClass(risk) {
+
+    switch (risk) {
+
+        case "high":
+            return "high";
+
+        case "medium":
+            return "medium";
+
+        case "low":
+        case "low-to-no":
+            return "low";
+
+        case "conflicting":
+            return "conflicting";
+
+        default:
+            return "unknown";
+
+    }
+
+}
+
+
+/* =========================
+   RISK LABEL
+========================= */
+
+function getRiskLabel(risk) {
+
+    switch (risk) {
+
+        case "high":
+            return "🔴 HIGH RISK — AVOID";
+
+        case "medium":
+            return "🟠 MEDIUM RISK — USE WITH CAUTION";
+
+        case "low":
+        case "low-to-no":
+            return "🟢 LOW-TO-NO RISK";
+
+        case "conflicting":
+            return "🟣 CONFLICTING EVIDENCE";
+
+        default:
+            return "⚪ INSUFFICIENT EVIDENCE";
+
+    }
+
+}
+
+
+/* =========================
+   SEARCH
+========================= */
+
 async function searchDrug() {
 
-  if (!window.drugs) {
-    await loadDrugs();
-  }
+    if (drugs.length === 0) {
+        await loadDrugs();
+    }
 
-  const input = document
-    .getElementById("searchInput")
-    .value
-    .trim()
-    .toLowerCase();
+    const input = document
+        .getElementById("searchInput")
+        .value
+        .trim()
+        .toLowerCase();
 
-  const result = document.getElementById("result");
+    const result = document.getElementById("result");
 
-  result.classList.remove("hidden");
-
-  if (!input) {
-
-    result.innerHTML = 
-      <h2>Please enter a medication name.</h2>
-    ;
-
-    return;
-  }
-
-  const drug = window.drugs.find(d => {
-
-    const name = (d.generic_name || "").toLowerCase();
-
-    const synonyms = (d.synonyms || [])
-      .map(s => s.toLowerCase());
-
-    return name.includes(input) ||
-           synonyms.some(s => s.includes(input));
-
-  });
+    result.classList.remove("hidden");
 
 
-  if (!drug) {
+    if (!input) {
+
+        result.innerHTML = `
+            <h2>Please enter a medication name.</h2>
+        `;
+
+        return;
+    }
+
+
+    const drug = drugs.find(drug => {
+
+        const genericName =
+            (drug.generic_name || "").toLowerCase();
+
+        const synonyms =
+            Array.isArray(drug.synonyms)
+                ? drug.synonyms.map(s => s.toLowerCase())
+                : [];
+
+        return (
+            genericName.includes(input) ||
+            synonyms.some(s => s.includes(input))
+        );
+
+    });
+
+
+    if (!drug) {
+
+        result.innerHTML = `
+            <h2>Medication not found</h2>
+
+            <p>
+                No medication matching
+                <strong>${escapeHTML(input)}</strong>
+                was found in the current database.
+            </p>
+        `;
+
+        return;
+    }
+
+
+    displayDrug(drug);
+
+}
+
+
+/* =========================
+   DISPLAY DRUG
+========================= */
+
+function displayDrug(drug) {
+
+    const result = document.getElementById("result");
+
+    const risk =
+        drug.verified_classification || "unknown";
+
+    const riskClass =
+        getRiskClass(risk);
+
+    const riskLabel =
+        getRiskLabel(risk);
+
+
+    let referencesHTML = "";
+
+    if (
+        Array.isArray(drug.references) &&
+        drug.references.length > 0
+    ) {
+
+        referencesHTML = `
+            <div class="reference">
+
+                <strong>References</strong>
+
+                ${drug.references.map(ref => `
+                    <p>
+                        ${escapeHTML(ref.source || "")}
+                        ${ref.year ? " (" + escapeHTML(String(ref.year)) + ")" : ""}
+                        <br>
+                        ${escapeHTML(ref.title || "")}
+                    </p>
+                `).join("")}
+
+            </div>
+        `;
+
+    }
+
 
     result.innerHTML = `
-      <h2>Medication not found</h2>
 
-      <
+        <h2>
+            ${escapeHTML(drug.generic_name || "Unknown medication")}
+        </h2>
+
+        <div class="risk ${riskClass}">
+            ${riskLabel}
+        </div>
+
+        <div class="info">
+
+            <p>
+                <strong>Drug class:</strong>
+                ${escapeHTML(drug.drug_class || "Not specified")}
+            </p>
+
+            <p>
+                <strong>Recommendation:</strong>
+                ${escapeHTML(drug.recommendation || "Not specified")}
+            </p>
+
+            <p>
+                <strong>Evidence level:</strong>
+                ${escapeHTML(drug.evidence_level || "Not specified")}
+            </p>
+
+            <p>
+                <strong>Dose dependent:</strong>
+                ${drug.dose_dependent ? "Yes" : "No"}
+            </p>
+
+            ${
+                drug.notes
+                ? `
+                    <p>
+                        <strong>Notes:</strong>
+                        ${escapeHTML(drug.notes)}
+                    </p>
+                  `
+                : ""
+            }
+
+        </div>
+
+        ${referencesHTML}
+
+    `;
+
+}
+
+
+/* =========================
+   SECURITY
+========================= */
+
+function escapeHTML(value) {
+
+    return String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+
+}
+
+
+/* =========================
+   ENTER KEY
+========================= */
+
+document
+    .getElementById("searchInput")
+    .addEventListener("keydown", function(event) {
+
+        if (event.key === "Enter") {
+            searchDrug();
+        }
+
+    });
+
+
+/* =========================
+   START
+========================= */
+
+loadDrugs();
+
+</script>
+
+</body>
+
+</html>
