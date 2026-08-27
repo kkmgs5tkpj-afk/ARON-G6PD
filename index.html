@@ -1,1 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
 
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>G6PD MedSafe</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      color: #1f2937;
+    }
+
+    header {
+      background: #17324d;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 8px;
+      font-size: 32px;
+    }
+
+    header p {
+      margin: 0;
+      opacity: 0.9;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .search-box {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 30px;
+    }
+
+    input {
+      flex: 1;
+      padding: 15px;
+      border: 1px solid #d1d5db;
+      border-radius: 10px;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 15px 22px;
+      border: none;
+      border-radius: 10px;
+      background: #17324d;
+      color: white;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      opacity: 0.9;
+    }
+
+    .card {
+      background: white;
+      border-radius: 15px;
+      padding: 25px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+      margin-bottom: 20px;
+    }
+
+    .risk {
+      display: inline-block;
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .high {
+      background: #fee2e2;
+      color: #b91c1c;
+    }
+
+    .medium {
+      background: #ffedd5;
+      color: #c2410c;
+    }
+
+    .unknown {
+      background: #e5e7eb;
+      color: #374151;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .disclaimer {
+      margin-top: 30px;
+      padding: 15px;
+      background: #fff7ed;
+      border-radius: 10px;
+      font-size: 14px;
+      color: #7c2d12;
+    }
+
+    @media (max-width: 600px) {
+      .search-box {
+        flex-direction: column;
+      }
+
+      button {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>G6PD MedSafe</h1>
+    <p>Medication Safety Checker for G6PD Deficiency</p>
+  </header>
+
+  <main>
+
+    <div class="search-box">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search medication..."
+      >
+
+      <button onclick="searchDrug()">
+        Search
+      </button>
+    </div>
+
+    <div id="result" class="card hidden"></div>
+
+    <div class="disclaimer">
+      <strong>Important:</strong>
+      This project is for educational and reference purposes.
+      It does not replace professional medical advice,
+      prescribing information, or clinical judgment.
+    </div>
+
+  </main>
+
+  <script>
+
+    const drugs = [
+      {
+        name: "Dapsone",
+        risk: "high",
+        recommendation: "Avoid",
+        evidence: "High"
+      },
+      {
+        name: "Nitrofurantoin",
+        risk: "medium",
+        recommendation: "Use with caution",
+        evidence: "Moderate"
+      }
+    ];
+
+    function searchDrug() {
+
+      const input =
+        document.getElementById("searchInput")
+          .value
+          .trim()
+          .toLowerCase();
+
+      const result =
+        document.getElementById("result");
+
+      if (!input) {
+        result.classList.remove("hidden");
+
+        result.innerHTML = 
+          <h2>Please enter a medication name.</h2>
+        ;
+
+        return;
+      }
+
+      const drug = drugs.find(
+        d => d.name.toLowerCase() === input
+      );
+
+      result.classList.remove("hidden");
+
+      if (!drug) {
+
+        result.innerHTML = 
+          <h2>Medication not found</h2>
+          <p>
+            No medication matching
+            <strong>${input}</strong>
+            was found in the current database.
+          </p>
+        ;
+
+        return;
+      }
+
+      result.innerHTML = `
+        <h2>${drug.name}</h2>
+
+        <div class="risk ${drug.risk}">
+          ${getRiskLabel(drug.risk)}
+        </div>
+
+        <p>
+          <strong>Recommendation:</strong>
+          ${drug.recommendation}
+        </p>
+        <p>
+          <strong>Evidence level:</strong>
+          ${drug.evidence}
+        </p>
+      `;
+    }
+
+    function
