@@ -162,77 +162,88 @@
   <script>
 
     const drugs = [
-      {
-        name: "Dapsone",
-        risk: "high",
-        recommendation: "Avoid",
-        evidence: "High"
-      },
-      {
-        name: "Nitrofurantoin",
-        risk: "medium",
-        recommendation: "Use with caution",
-        evidence: "Moderate"
-      }
-    ];
+  {
+    name: "Dapsone",
+    risk: "high",
+    recommendation: "Avoid",
+    evidence: "High"
+  },
+  {
+    name: "Nitrofurantoin",
+    risk: "medium",
+    recommendation: "Use with caution",
+    evidence: "Moderate"
+  }
+];
 
-    function searchDrug() {
+function searchDrug() {
 
-      const input =
-        document.getElementById("searchInput")
-          .value
-          .trim()
-          .toLowerCase();
+  const input = document
+    .getElementById("searchInput")
+    .value
+    .trim()
+    .toLowerCase();
 
-      const result =
-        document.getElementById("result");
+  const result = document.getElementById("result");
 
-      if (!input) {
-        result.classList.remove("hidden");
+  if (!input) {
+    result.classList.remove("hidden");
 
-        result.innerHTML = 
-          <h2>Please enter a medication name.</h2>
-        ;
+    result.innerHTML = 
+      <h2>Please enter a medication name.</h2>
+    ;
 
-        return;
-      }
+    return;
+  }
 
-      const drug = drugs.find(
-        d => d.name.toLowerCase() === input
-      );
+  const drug = drugs.find(d =>
+    d.name.toLowerCase().includes(input)
+  );
 
-      result.classList.remove("hidden");
+  result.classList.remove("hidden");
 
-      if (!drug) {
+  if (!drug) {
 
-        result.innerHTML = 
-          <h2>Medication not found</h2>
-          <p>
-            No medication matching
-            <strong>${input}</strong>
-            was found in the current database.
-          </p>
-        ;
+    result.innerHTML = 
+      <h2>Medication not found</h2>
+      <p>
+        No medication matching
+        <strong>${input}</strong>
+        was found.
+      </p>
+    ;
 
-        return;
-      }
+    return;
+  }
 
-      result.innerHTML = `
-        <h2>${drug.name}</h2>
+  result.innerHTML = 
+    <h2>${drug.name}</h2>
 
-        <div class="risk ${drug.risk}">
-          ${getRiskLabel(drug.risk)}
-        </div>
+    <div class="risk ${drug.risk}">
+      ${getRiskLabel(drug.risk)}
+    </div>
 
-        <p>
-          <strong>Recommendation:</strong>
-          ${drug.recommendation}
-        </p>
-        <p>
-          <strong>Evidence level:</strong>
-          ${drug.evidence}
-        </p>
-      `;
-    }
+    <p>
+      <strong>Recommendation:</strong>
+      ${drug.recommendation}
+    </p>
 
-    function
+    <p>
+      <strong>Evidence level:</strong>
+      ${drug.evidence}
+    </p>
+  ;
+}
+
+function getRiskLabel(risk) {
+
+  if (risk === "high") {
+    return "🔴 HIGH RISK";
+  }
+
+  if (risk === "medium") {
+    return "🟠 MEDIUM RISK";
+  }
+
+  return "⚪ UNKNOWN";
+}
