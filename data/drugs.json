@@ -10,15 +10,38 @@
       "drug_class": "Sulfone antibiotic",
       "original_classification": "high",
       "verified_classification": "high",
-"recommendation": "Avoid",
-"evidence_level": "high",
-"dose_dependent": false,
-"notes": "High-risk medication in G6PD deficiency.",
-"references": [
-  {
-    "source": "CPIC",
-    "year": 2023,
-    "title": "CPIC Guideline for G6PD-related medication risk"
-  }
-],
-"last_reviewed": "2026-08-28"
+      "recommendation": "Avoid",
+      "evidence_level": "high",
+      "dose_dependent": false,
+      "notes": "High-risk medication in G6PD deficiency.",
+      "references": [
+        {
+          "source": "CPIC",
+          "year": 2023,
+          "title": "CPIC Guideline for G6PD-related medication risk"
+        }
+      ],
+      "last_reviewed": "2026-08-28"
+    },
+    {
+      "id": "nitrofurantoin",
+      "generic_name": "Nitrofurantoin",
+      "synonyms": [],
+      "drug_class": "Antibiotic",
+      "original_classification": "high",
+      "verified_classification": "medium",
+      "recommendation": "Use with caution",
+      "evidence_level": "moderate",
+      "dose_dependent": false,
+      "notes": "The original source lists this medication as high risk; the project's verified classification will be based on current evidence.",
+      "references": [
+        {
+          "source": "CPIC",
+          "year": 2023,
+          "title": "CPIC Guideline for G6PD-related medication risk"
+        }
+      ],
+      "last_reviewed": "2026-08-28"
+    }
+  ]
+}
