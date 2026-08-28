@@ -1,111 +1,117 @@
 {
   "project": "G6PD-ARON",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "last_updated": "2026-08-28",
+  "classification_basis": [
+    "CPIC guideline for G6PD genotype and medication use (2023)",
+    "Evidence-based review of medications and G6PD deficiency",
+    "2024 real-world study of medication-associated hemolysis"
+  ],
+  "important_note": "Verified classification is evidence-based. 'insufficient-evidence' means the available evidence does not support calling the drug safe, medium-risk, or high-risk specifically for G6PD deficiency. This is not the same as proven safety.",
   "drugs": [
     {
       "id": "naphthol",
       "generic_name": "Naphthol",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "acetanilide",
       "generic_name": "Acetanilide",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "acetylphenylhydrazine",
       "generic_name": "Acetylphenylhydrazine",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "aldesulfone-sodium",
       "generic_name": "Aldesulfone sodium",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "arsine",
       "generic_name": "Arsine",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "ascorbic-acid",
       "generic_name": "Ascorbic acid",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "beta-naphthol",
       "generic_name": "Beta-Naphthol",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "brinzolamide",
       "generic_name": "Brinzolamide",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "bupivacaine",
       "generic_name": "Bupivacaine",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "chloramphenicol",
       "generic_name": "Chloramphenicol",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "low-to-no",
+      "recommendation": "Low-to-no risk at standard therapeutic use",
+      "evidence_level": "CPIC optional/moderate"
     },
     {
       "id": "chloroquine",
       "generic_name": "Chloroquine",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "low-to-no",
+      "recommendation": "Low-to-no risk at standard therapeutic use",
+      "evidence_level": "CPIC optional/moderate"
     },
     {
-      "id": "chloroquine-proguanil",
+      "id": "chloroquine--proguanil",
       "generic_name": "Chloroquine + Proguanil",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "ciprofloxacin",
       "generic_name": "Ciprofloxacin",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "low-to-no",
+      "recommendation": "Low-to-no risk at standard therapeutic use",
+      "evidence_level": "CPIC optional/moderate"
     },
     {
       "id": "dapsone",
@@ -113,248 +119,247 @@
       "original_classification": "high",
       "verified_classification": "high",
       "recommendation": "Avoid",
-      "evidence_level": "high",
-      "notes": "High-risk medication in G6PD deficiency."
+      "evidence_level": "CPIC strong/moderate"
     },
     {
       "id": "diethylamine",
       "generic_name": "Diethylamine",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "dimenhydrinate",
       "generic_name": "Dimenhydrinate",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "dimercaprol",
       "generic_name": "Dimercaprol",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "low-to-no",
+      "recommendation": "Low-to-no risk at standard therapeutic use",
+      "evidence_level": "CPIC optional/moderate"
     },
     {
       "id": "dorzolamide",
       "generic_name": "Dorzolamide",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "doxorubicin",
       "generic_name": "Doxorubicin",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "low-to-no",
+      "recommendation": "Low-to-no risk at standard therapeutic use",
+      "evidence_level": "CPIC optional/moderate"
     },
     {
       "id": "enoxacin",
       "generic_name": "Enoxacin",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "furazolidone",
       "generic_name": "Furazolidone",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "low-to-no",
+      "recommendation": "Low-to-no risk at standard therapeutic use",
+      "evidence_level": "CPIC optional/moderate"
     },
     {
       "id": "glibenclamide",
       "generic_name": "Glibenclamide",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "low-to-no",
+      "recommendation": "Low-to-no risk at standard therapeutic use",
+      "evidence_level": "CPIC optional/moderate"
     },
     {
       "id": "gliclazide",
       "generic_name": "Gliclazide",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "glimepiride",
       "generic_name": "Glimepiride",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "glipizide",
       "generic_name": "Glipizide",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "glucosulfone",
       "generic_name": "Glucosulfone",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "hydroxychloroquine",
       "generic_name": "Hydroxychloroquine",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "low-to-no",
+      "recommendation": "Low-to-no risk at standard therapeutic use",
+      "evidence_level": "CPIC optional/moderate"
     },
     {
       "id": "isobutyl-nitrate",
       "generic_name": "Isobutyl Nitrate",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "levofloxacin",
       "generic_name": "Levofloxacin",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "lomefloxacin",
       "generic_name": "Lomefloxacin",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "mefloquine",
       "generic_name": "Mefloquine",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "menadiol-sodium-sulfate",
       "generic_name": "Menadiol Sodium Sulfate",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "menadione",
       "generic_name": "Menadione",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "menadione-sodium-bisulfate",
       "generic_name": "Menadione Sodium Bisulfate",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "mepacrine",
       "generic_name": "Mepacrine",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "mesalazine",
       "generic_name": "Mesalazine",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "metamizole",
       "generic_name": "Metamizole",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
-      "id": "methylene-blue",
+      "id": "methylthioninium-chloride",
       "generic_name": "Methylthioninium chloride",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "high",
+      "recommendation": "Avoid",
+      "evidence_level": "CPIC strong/moderate"
     },
     {
       "id": "moxifloxacin",
       "generic_name": "Moxifloxacin",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "nalidixic-acid",
       "generic_name": "Nalidixic acid",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "low-to-no",
+      "recommendation": "Low-to-no risk at standard therapeutic use",
+      "evidence_level": "CPIC optional/moderate"
     },
     {
       "id": "naphthalene",
       "generic_name": "Naphthalene",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "niridazole",
       "generic_name": "Niridazole",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "nitric-oxide",
       "generic_name": "Nitric oxide",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
-      "id": "nitrofurazone",
+      "id": "nitrofural",
       "generic_name": "Nitrofural",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "nitrofurantoin",
@@ -362,756 +367,767 @@
       "original_classification": "high",
       "verified_classification": "medium",
       "recommendation": "Use with caution",
-      "evidence_level": "moderate"
+      "evidence_level": "CPIC optional"
     },
     {
       "id": "nitroglycerin",
       "generic_name": "Nitroglycerin",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "noramidopyrine",
       "generic_name": "Noramidopyrine",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
-      "id": "aspirin",
+      "id": "acetylsalicylic-acid",
       "generic_name": "Acetylsalicylic acid",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "low-to-no",
+      "recommendation": "Low-to-no risk at standard therapeutic use",
+      "evidence_level": "CPIC optional/moderate"
     },
     {
       "id": "ofloxacin",
       "generic_name": "Ofloxacin",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "low-to-no",
+      "recommendation": "Low-to-no risk at standard therapeutic use",
+      "evidence_level": "CPIC optional/moderate"
     },
     {
       "id": "urate-oxidase",
       "generic_name": "Urate oxidase",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "pamaquine",
       "generic_name": "Pamaquine",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "pefloxacin",
       "generic_name": "Pefloxacin",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "pentaquine",
       "generic_name": "Pentaquine",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "phenacetin",
       "generic_name": "Phenacetin",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "phenazopyridine",
       "generic_name": "Phenazopyridine",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "low-to-no",
+      "recommendation": "Low-to-no risk at standard therapeutic use",
+      "evidence_level": "CPIC optional/moderate"
     },
     {
       "id": "phenylhydrazine",
       "generic_name": "Phenylhydrazine",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "pipemidic-acid",
       "generic_name": "Pipemidic acid",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "primaquine",
       "generic_name": "Primaquine",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "probenecid",
       "generic_name": "Probenecid",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
-      "id": "quinidine-phenylhydrazine",
-      "generic_name": "Quinidine + Phenylhydrazine",
+      "id": "phenylhydrazine--quinidine",
+      "generic_name": "Phenylhydrazine + Quinidine",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "rasburicase",
       "generic_name": "Rasburicase",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "high",
+      "recommendation": "Avoid",
+      "evidence_level": "CPIC strong/moderate"
     },
     {
       "id": "sodium-nitroprusside",
       "generic_name": "Sodium nitroprusside",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "spiramycin",
       "generic_name": "Spiramycin",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "stibophen",
       "generic_name": "Stibophen",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "sulfacetamide",
       "generic_name": "Sulfacetamide",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "sulfadimidine",
       "generic_name": "Sulfadimidine",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "low-to-no",
+      "recommendation": "Low-to-no risk at standard therapeutic use",
+      "evidence_level": "CPIC optional/moderate"
     },
     {
       "id": "sulfafurazole",
       "generic_name": "Sulfafurazole",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "sulfamethoxazole",
       "generic_name": "Sulfamethoxazole",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "low-to-no",
+      "recommendation": "Low-to-no risk at standard therapeutic use",
+      "evidence_level": "CPIC optional/moderate"
     },
     {
       "id": "sulfanilamide",
       "generic_name": "Sulfanilamide",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "low-to-no",
+      "recommendation": "Low-to-no risk at standard therapeutic use",
+      "evidence_level": "CPIC optional/moderate"
     },
     {
       "id": "sulfapyridine",
       "generic_name": "Sulfapyridine",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "sulfasalazine",
       "generic_name": "Sulfasalazine",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "low-to-no",
+      "recommendation": "Low-to-no risk at standard therapeutic use",
+      "evidence_level": "CPIC optional/moderate"
     },
     {
       "id": "thiamphenicol",
       "generic_name": "Thiamphenicol",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "thiazosulfone",
       "generic_name": "Thiazosulfone",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "tolonium-chloride",
       "generic_name": "Tolonium chloride",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "high",
+      "recommendation": "Avoid",
+      "evidence_level": "CPIC strong/moderate"
     },
     {
-      "id": "trimethoprim-sulfamethoxazole",
+      "id": "trimethoprim--sulfamethoxazole",
       "generic_name": "Trimethoprim + Sulfamethoxazole",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "trinitrotoluene",
       "generic_name": "Trinitrotoluene",
       "original_classification": "high",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
-
     {
       "id": "acetazolamide",
       "generic_name": "Acetazolamide",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "aminophenazone",
       "generic_name": "Aminophenazone",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "antazoline",
       "generic_name": "Antazoline",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "arginine",
       "generic_name": "Arginine",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
-      "id": "st-ignatius-bean",
+      "id": "bean-of-st-ignatius",
       "generic_name": "Bean of St. Ignatius",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "benorilate",
       "generic_name": "Benorilate",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "calcium-carboxylate",
       "generic_name": "Calcium carboxylate",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "carbutamide",
       "generic_name": "Carbutamide",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "colchicine",
       "generic_name": "Colchicine",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "diphenhydramine",
       "generic_name": "Diphenhydramine",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "dopamine",
       "generic_name": "Dopamine",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "epirubicin",
       "generic_name": "Epirubicin",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "flumequine",
       "generic_name": "Flumequine",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "glibornuride",
       "generic_name": "Glibornuride",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "ibuprofen",
       "generic_name": "Ibuprofen",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "indigofera",
       "generic_name": "Indigofera",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "isoniazid",
       "generic_name": "Isoniazid",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "lawsone",
       "generic_name": "Lawsone",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "levodopa",
       "generic_name": "Levodopa",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "morpholine",
       "generic_name": "Morpholine",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "norfloxacin",
       "generic_name": "Norfloxacin",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "low-to-no",
+      "recommendation": "Low-to-no risk at standard therapeutic use",
+      "evidence_level": "CPIC optional/moderate"
     },
     {
       "id": "para-aminobenzoic-acid",
       "generic_name": "Para-Aminobenzoic Acid",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "paracetamol",
       "generic_name": "Paracetamol",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
-      "id": "paracetamol-propyphenazone",
+      "id": "paracetamol--propyphenazone",
       "generic_name": "Paracetamol + Propyphenazone",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "phenazone",
       "generic_name": "Phenazone",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "phenylbutazone",
       "generic_name": "Phenylbutazone",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "phenytoin",
       "generic_name": "Phenytoin",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "phytomenadione",
       "generic_name": "Phytomenadione",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "prilocaine",
       "generic_name": "Prilocaine",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "procainamide",
       "generic_name": "Procainamide",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "proguanil",
       "generic_name": "Proguanil",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "propylene-glycol",
       "generic_name": "Propylene Glycol",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "propyphenazone",
       "generic_name": "Propyphenazone",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "pyrimethamine",
       "generic_name": "Pyrimethamine",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "quinidine",
       "generic_name": "Quinidine",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
-      "id": "quinidine-quinine",
+      "id": "quinidine--quinine",
       "generic_name": "Quinidine + Quinine",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "quinine",
       "generic_name": "Quinine",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "low-to-no",
+      "recommendation": "Low-to-no risk at standard therapeutic use",
+      "evidence_level": "CPIC optional/moderate"
     },
     {
       "id": "streptomycin",
       "generic_name": "Streptomycin",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "succimer",
       "generic_name": "Succimer",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "sulfacytine",
       "generic_name": "Sulfacytine",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "sulfadiazine",
       "generic_name": "Sulfadiazine",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "low-to-no",
+      "recommendation": "Low-to-no risk at standard therapeutic use",
+      "evidence_level": "CPIC optional/moderate"
     },
     {
-      "id": "sulfadiazine-trimethoprim",
+      "id": "sulfadiazine--trimethoprim",
       "generic_name": "Sulfadiazine + Trimethoprim",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "sulfadoxine",
       "generic_name": "Sulfadoxine",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "sulfaguanidine",
       "generic_name": "Sulfaguanidine",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "sulfamerazine",
       "generic_name": "Sulfamerazine",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "sulfamethizole",
       "generic_name": "Sulfamethizole",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "sulfamethoxypyridazine",
       "generic_name": "Sulfamethoxypyridazine",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "sulfoxone",
       "generic_name": "Sulfoxone",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "tiaprofenic-acid",
       "generic_name": "Tiaprofenic acid",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "trihexyphenidyl",
       "generic_name": "Trihexyphenidyl",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "trimethoprim",
       "generic_name": "Trimethoprim",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "tripelennamine",
       "generic_name": "Tripelennamine",
       "original_classification": "medium",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
-
     {
       "id": "acetophenetidin",
       "generic_name": "Acetophenetidin",
       "original_classification": "relatively_safe",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "aminopyrine",
       "generic_name": "Aminopyrine",
       "original_classification": "relatively_safe",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "antipyrine",
       "generic_name": "Antipyrine",
       "original_classification": "relatively_safe",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "azathioprine",
       "generic_name": "Azathioprine",
       "original_classification": "relatively_safe",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending",
-      "notes": "Original source states: use with caution."
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "baclofen",
       "generic_name": "Baclofen",
       "original_classification": "relatively_safe",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending",
-      "notes": "Original source states: use with caution."
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "benzhexolo",
       "generic_name": "Benzhexolo",
       "original_classification": "relatively_safe",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "clorguanidina",
       "generic_name": "Clorguanidina",
       "original_classification": "relatively_safe",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "pregabalin",
       "generic_name": "Pregabalin",
       "original_classification": "relatively_safe",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending",
-      "notes": "Original source states: use with caution."
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "procainamide-hydrochloride",
       "generic_name": "Procainamide Hydrochloride",
       "original_classification": "relatively_safe",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "insufficient-evidence",
+      "recommendation": "No evidence-based G6PD-specific recommendation",
+      "evidence_level": "Not classified by CPIC 2023"
     },
     {
       "id": "sulfisoxazole",
       "generic_name": "Sulfisoxazole",
       "original_classification": "relatively_safe",
-      "verified_classification": "pending",
-      "recommendation": "Pending verification",
-      "evidence_level": "pending"
+      "verified_classification": "low-to-no",
+      "recommendation": "Low-to-no risk at standard therapeutic use",
+      "evidence_level": "CPIC optional/moderate"
+    },
+    {
+      "id": "tafenoquine",
+      "generic_name": "Tafenoquine",
+      "original_classification": "not_in_original_list",
+      "verified_classification": "high",
+      "recommendation": "Avoid",
+      "evidence_level": "CPIC strong"
+    },
+    {
+      "id": "pegloticase",
+      "generic_name": "Pegloticase",
+      "original_classification": "not_in_original_list",
+      "verified_classification": "high",
+      "recommendation": "Avoid",
+      "evidence_level": "CPIC strong"
     }
   ]
 }
