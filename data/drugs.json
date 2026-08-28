@@ -1,47 +1,1117 @@
 {
   "project": "G6PD-ARON",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "last_updated": "2026-08-28",
   "drugs": [
     {
+      "id": "naphthol",
+      "generic_name": "Naphthol",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "acetanilide",
+      "generic_name": "Acetanilide",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "acetylphenylhydrazine",
+      "generic_name": "Acetylphenylhydrazine",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "aldesulfone-sodium",
+      "generic_name": "Aldesulfone sodium",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "arsine",
+      "generic_name": "Arsine",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "ascorbic-acid",
+      "generic_name": "Ascorbic acid",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "beta-naphthol",
+      "generic_name": "Beta-Naphthol",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "brinzolamide",
+      "generic_name": "Brinzolamide",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "bupivacaine",
+      "generic_name": "Bupivacaine",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "chloramphenicol",
+      "generic_name": "Chloramphenicol",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "chloroquine",
+      "generic_name": "Chloroquine",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "chloroquine-proguanil",
+      "generic_name": "Chloroquine + Proguanil",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "ciprofloxacin",
+      "generic_name": "Ciprofloxacin",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
       "id": "dapsone",
       "generic_name": "Dapsone",
-      "synonyms": [],
-      "drug_class": "Sulfone antibiotic",
       "original_classification": "high",
       "verified_classification": "high",
       "recommendation": "Avoid",
       "evidence_level": "high",
-      "dose_dependent": false,
-      "notes": "High-risk medication in G6PD deficiency.",
-      "references": [
-        {
-          "source": "CPIC",
-          "year": 2023,
-          "title": "CPIC Guideline for G6PD-related medication risk"
-        }
-      ],
-      "last_reviewed": "2026-08-28"
+      "notes": "High-risk medication in G6PD deficiency."
+    },
+    {
+      "id": "diethylamine",
+      "generic_name": "Diethylamine",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "dimenhydrinate",
+      "generic_name": "Dimenhydrinate",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "dimercaprol",
+      "generic_name": "Dimercaprol",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "dorzolamide",
+      "generic_name": "Dorzolamide",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "doxorubicin",
+      "generic_name": "Doxorubicin",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "enoxacin",
+      "generic_name": "Enoxacin",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "furazolidone",
+      "generic_name": "Furazolidone",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "glibenclamide",
+      "generic_name": "Glibenclamide",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "gliclazide",
+      "generic_name": "Gliclazide",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "glimepiride",
+      "generic_name": "Glimepiride",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "glipizide",
+      "generic_name": "Glipizide",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "glucosulfone",
+      "generic_name": "Glucosulfone",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "hydroxychloroquine",
+      "generic_name": "Hydroxychloroquine",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "isobutyl-nitrate",
+      "generic_name": "Isobutyl Nitrate",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "levofloxacin",
+      "generic_name": "Levofloxacin",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "lomefloxacin",
+      "generic_name": "Lomefloxacin",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "mefloquine",
+      "generic_name": "Mefloquine",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "menadiol-sodium-sulfate",
+      "generic_name": "Menadiol Sodium Sulfate",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "menadione",
+      "generic_name": "Menadione",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "menadione-sodium-bisulfate",
+      "generic_name": "Menadione Sodium Bisulfate",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "mepacrine",
+      "generic_name": "Mepacrine",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "mesalazine",
+      "generic_name": "Mesalazine",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "metamizole",
+      "generic_name": "Metamizole",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "methylene-blue",
+      "generic_name": "Methylthioninium chloride",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "moxifloxacin",
+      "generic_name": "Moxifloxacin",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "nalidixic-acid",
+      "generic_name": "Nalidixic acid",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "naphthalene",
+      "generic_name": "Naphthalene",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "niridazole",
+      "generic_name": "Niridazole",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "nitric-oxide",
+      "generic_name": "Nitric oxide",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "nitrofurazone",
+      "generic_name": "Nitrofural",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
     },
     {
       "id": "nitrofurantoin",
       "generic_name": "Nitrofurantoin",
-      "synonyms": [],
-      "drug_class": "Antibiotic",
       "original_classification": "high",
       "verified_classification": "medium",
       "recommendation": "Use with caution",
-      "evidence_level": "moderate",
-      "dose_dependent": false,
-      "notes": "The original source lists this medication as high risk; the project's verified classification will be based on current evidence.",
-      "references": [
-        {
-          "source": "CPIC",
-          "year": 2023,
-          "title": "CPIC Guideline for G6PD-related medication risk"
-        }
-      ],
-      "last_reviewed": "2026-08-28"
+      "evidence_level": "moderate"
+    },
+    {
+      "id": "nitroglycerin",
+      "generic_name": "Nitroglycerin",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "noramidopyrine",
+      "generic_name": "Noramidopyrine",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "aspirin",
+      "generic_name": "Acetylsalicylic acid",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "ofloxacin",
+      "generic_name": "Ofloxacin",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "urate-oxidase",
+      "generic_name": "Urate oxidase",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "pamaquine",
+      "generic_name": "Pamaquine",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "pefloxacin",
+      "generic_name": "Pefloxacin",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "pentaquine",
+      "generic_name": "Pentaquine",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "phenacetin",
+      "generic_name": "Phenacetin",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "phenazopyridine",
+      "generic_name": "Phenazopyridine",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "phenylhydrazine",
+      "generic_name": "Phenylhydrazine",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "pipemidic-acid",
+      "generic_name": "Pipemidic acid",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "primaquine",
+      "generic_name": "Primaquine",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "probenecid",
+      "generic_name": "Probenecid",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "quinidine-phenylhydrazine",
+      "generic_name": "Quinidine + Phenylhydrazine",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "rasburicase",
+      "generic_name": "Rasburicase",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "sodium-nitroprusside",
+      "generic_name": "Sodium nitroprusside",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "spiramycin",
+      "generic_name": "Spiramycin",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "stibophen",
+      "generic_name": "Stibophen",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "sulfacetamide",
+      "generic_name": "Sulfacetamide",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "sulfadimidine",
+      "generic_name": "Sulfadimidine",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "sulfafurazole",
+      "generic_name": "Sulfafurazole",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "sulfamethoxazole",
+      "generic_name": "Sulfamethoxazole",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "sulfanilamide",
+      "generic_name": "Sulfanilamide",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "sulfapyridine",
+      "generic_name": "Sulfapyridine",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "sulfasalazine",
+      "generic_name": "Sulfasalazine",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "thiamphenicol",
+      "generic_name": "Thiamphenicol",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "thiazosulfone",
+      "generic_name": "Thiazosulfone",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "tolonium-chloride",
+      "generic_name": "Tolonium chloride",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "trimethoprim-sulfamethoxazole",
+      "generic_name": "Trimethoprim + Sulfamethoxazole",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "trinitrotoluene",
+      "generic_name": "Trinitrotoluene",
+      "original_classification": "high",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+
+    {
+      "id": "acetazolamide",
+      "generic_name": "Acetazolamide",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "aminophenazone",
+      "generic_name": "Aminophenazone",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "antazoline",
+      "generic_name": "Antazoline",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "arginine",
+      "generic_name": "Arginine",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "st-ignatius-bean",
+      "generic_name": "Bean of St. Ignatius",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "benorilate",
+      "generic_name": "Benorilate",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "calcium-carboxylate",
+      "generic_name": "Calcium carboxylate",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "carbutamide",
+      "generic_name": "Carbutamide",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "colchicine",
+      "generic_name": "Colchicine",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "diphenhydramine",
+      "generic_name": "Diphenhydramine",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "dopamine",
+      "generic_name": "Dopamine",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "epirubicin",
+      "generic_name": "Epirubicin",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "flumequine",
+      "generic_name": "Flumequine",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "glibornuride",
+      "generic_name": "Glibornuride",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "ibuprofen",
+      "generic_name": "Ibuprofen",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "indigofera",
+      "generic_name": "Indigofera",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "isoniazid",
+      "generic_name": "Isoniazid",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "lawsone",
+      "generic_name": "Lawsone",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "levodopa",
+      "generic_name": "Levodopa",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "morpholine",
+      "generic_name": "Morpholine",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "norfloxacin",
+      "generic_name": "Norfloxacin",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "para-aminobenzoic-acid",
+      "generic_name": "Para-Aminobenzoic Acid",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "paracetamol",
+      "generic_name": "Paracetamol",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "paracetamol-propyphenazone",
+      "generic_name": "Paracetamol + Propyphenazone",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "phenazone",
+      "generic_name": "Phenazone",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "phenylbutazone",
+      "generic_name": "Phenylbutazone",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "phenytoin",
+      "generic_name": "Phenytoin",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "phytomenadione",
+      "generic_name": "Phytomenadione",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "prilocaine",
+      "generic_name": "Prilocaine",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "procainamide",
+      "generic_name": "Procainamide",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "proguanil",
+      "generic_name": "Proguanil",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "propylene-glycol",
+      "generic_name": "Propylene Glycol",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "propyphenazone",
+      "generic_name": "Propyphenazone",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "pyrimethamine",
+      "generic_name": "Pyrimethamine",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "quinidine",
+      "generic_name": "Quinidine",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "quinidine-quinine",
+      "generic_name": "Quinidine + Quinine",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "quinine",
+      "generic_name": "Quinine",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "streptomycin",
+      "generic_name": "Streptomycin",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "succimer",
+      "generic_name": "Succimer",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "sulfacytine",
+      "generic_name": "Sulfacytine",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "sulfadiazine",
+      "generic_name": "Sulfadiazine",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "sulfadiazine-trimethoprim",
+      "generic_name": "Sulfadiazine + Trimethoprim",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "sulfadoxine",
+      "generic_name": "Sulfadoxine",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "sulfaguanidine",
+      "generic_name": "Sulfaguanidine",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "sulfamerazine",
+      "generic_name": "Sulfamerazine",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "sulfamethizole",
+      "generic_name": "Sulfamethizole",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "sulfamethoxypyridazine",
+      "generic_name": "Sulfamethoxypyridazine",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "sulfoxone",
+      "generic_name": "Sulfoxone",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "tiaprofenic-acid",
+      "generic_name": "Tiaprofenic acid",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "trihexyphenidyl",
+      "generic_name": "Trihexyphenidyl",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "trimethoprim",
+      "generic_name": "Trimethoprim",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "tripelennamine",
+      "generic_name": "Tripelennamine",
+      "original_classification": "medium",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+
+    {
+      "id": "acetophenetidin",
+      "generic_name": "Acetophenetidin",
+      "original_classification": "relatively_safe",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "aminopyrine",
+      "generic_name": "Aminopyrine",
+      "original_classification": "relatively_safe",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "antipyrine",
+      "generic_name": "Antipyrine",
+      "original_classification": "relatively_safe",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "azathioprine",
+      "generic_name": "Azathioprine",
+      "original_classification": "relatively_safe",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending",
+      "notes": "Original source states: use with caution."
+    },
+    {
+      "id": "baclofen",
+      "generic_name": "Baclofen",
+      "original_classification": "relatively_safe",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending",
+      "notes": "Original source states: use with caution."
+    },
+    {
+      "id": "benzhexolo",
+      "generic_name": "Benzhexolo",
+      "original_classification": "relatively_safe",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "clorguanidina",
+      "generic_name": "Clorguanidina",
+      "original_classification": "relatively_safe",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "pregabalin",
+      "generic_name": "Pregabalin",
+      "original_classification": "relatively_safe",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending",
+      "notes": "Original source states: use with caution."
+    },
+    {
+      "id": "procainamide-hydrochloride",
+      "generic_name": "Procainamide Hydrochloride",
+      "original_classification": "relatively_safe",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
+    },
+    {
+      "id": "sulfisoxazole",
+      "generic_name": "Sulfisoxazole",
+      "original_classification": "relatively_safe",
+      "verified_classification": "pending",
+      "recommendation": "Pending verification",
+      "evidence_level": "pending"
     }
   ]
 }
